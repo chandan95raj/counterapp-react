@@ -15,8 +15,8 @@ const Main = () => {
     }
     return (
         <>
-        <div className='main'> 
-        <h1>Counter App - React</h1>
+        <div className='main'>
+        <marquee behavior="alternate"><h1>Counter App - React</h1></marquee>
         <hr className='hr' />
         <div className='value'>{value}</div>
             <Button key={1} title={"+"} function={increment} />
