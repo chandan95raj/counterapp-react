@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:khaki;
+}
+
+.main {
+    width:50%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 1px 5px #ccc;
+    background-color: #fff;
+}
+
+.hr {
+    margin: 10px 0;
+}
+
+.value {
+    font-size: 5em;
+}
+button{
+    text-align: center;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color:rgb(224, 207, 47);
+    font-weight: bold;
+    border: 0;
+    border-radius: 30px;
+}
+
+@media (max-width:600px) {
+    .main {
+        width: 90%;
+    }
+}
